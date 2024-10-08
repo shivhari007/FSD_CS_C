@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#reg-from{
+    display: flex;
+    justify-content: center;
+}
+
+#heading{
+    background-color: greenyellow;
+    font-size: 60px;
+    text-align: center;
+    border: 10px solid red;
+}
+
+table{
+    background-color: chartreuse;
+    font-size: 40px;
+    border: 10px solid red;
+}
