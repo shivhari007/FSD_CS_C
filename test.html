@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        background-color: aqua;
+        border-radius: 10px;
+        padding-top: 10px;
+        margin-top: 15%;
+        margin-left: 20%;
+        margin-right: 25px;
+        height: 250px;
+        width: 450px;
+      }
+      h1 {
+        text-align: center;
+        text-decoration: none;
+        size: 10px;
+        color: black;
+      }
+
+      .div1 {
+        text-align: center;
+        padding-top: 20px;
+      }
+      .div2 {
+        display: flex;
+        justify-content: center;
+      }
+      .btn1 {
+        background-color: rgb(60, 184, 25);
+        margin-right: 2rem;
+        padding: 10px;
+        margin-top: 2rem;
+      }
+
+      .btn2 {
+        background-color: red;
+        margin-left: 2rem;
+        padding: 10px;
+        margin-top: 2rem;
+      }
+      p {
+        padding: 10px;
+      }
+      .main {
+        box-sizing: border-box;
+        position: absolute;
+        margin-left: 350px;
+        margin-top: 200px;
+        height: 450px;
+        width: 700px;
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Random Joke Generator</h1>
+        <div class="div1">
+          <p>Press the button for a joke!</p>
+          <p>Character count:0</p>
+        </div>
+        <div class="div2">
+          <button class="btn1">Get Joke</button>
+          <button class="btn2">Clear Joke</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
